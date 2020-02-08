@@ -1,0 +1,76 @@
+body{
+ background-color: #7474bc;
+    color: white;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+  
+    margin: 0;
+
+}
+#title,#description{
+    text-align: center;
+}
+#survey-form{
+   background-color:#272747;
+    padding: 45px 115px 45px 115px;
+    margin-bottom: 75px;
+    margin-left: 185px;
+    margin-right: 185px;
+    margin-top: 45px;
+}
+form {
+    display: block;
+    margin-top: 0em;
+}
+label {
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+}
+.form-group{
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
+}
+.form-control{
+    display: block;
+    width: 100%;
+    height: 2.075rem;
+    padding: 0.375rem 0.75rem;
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    background-clip: padding-box;
+transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.input-radio, .input-checkbox{
+    display: inline-block;
+    margin-right: 0.625rem;
+    min-height: 1.25rem;
+    min-width: 1.25rem;
+}
+.input-textarea {
+    min-height: 120px;
+    width: 100%;
+    padding: 0.625rem;
+    resize: vertical;
+}
+.submit-button{
+display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background: var(--color-green);
+    color: inherit;
+    border-radius: 2px;
+    cursor: pointer;
+}
+input, button, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
